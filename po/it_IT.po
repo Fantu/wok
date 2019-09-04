@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: kimchi 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-30 10:25-0300\n"
-"PO-Revision-Date: 2013-07-11 17:32-0400\n"
-"Last-Translator: Crístian Viana <vianac@linux.vnet.ibm.com>\n"
+"PO-Revision-Date: 2019-08-30 17:41+0200\n"
+"Last-Translator: Fabio Fantoni <fabio.fantoni@m2r.biz>\n"
 "Language-Team: English\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #, python-format
 msgid "Delete is not allowed for %(resource)s"
@@ -39,7 +40,7 @@ msgid "Parameters does not match requirement in schema: %(err)s"
 msgstr ""
 
 msgid "You don't have permission to perform this operation."
-msgstr ""
+msgstr "Non disponi dell'autorizzazione per eseguire questa operazione."
 
 #, python-format
 msgid "Unable to find task id: %(id)s"
@@ -51,6 +52,8 @@ msgstr ""
 #, python-format
 msgid "Timeout of %(seconds)s seconds expired while running task '%(task)s."
 msgstr ""
+"Timeout di %(seconds)s secondi scaduto durante l'esecuzione dell'attività "
+"'%(task)s."
 
 #, python-format
 msgid "Unable to kill task due error: %(err)s"
@@ -66,20 +69,22 @@ msgid "You are not authorized to access Wok. Please, login first."
 msgstr ""
 
 msgid "Specify username to login into Wok."
-msgstr "Specificare %(item)s per accedere a Wok."
+msgstr "Specifica il nome utente per accedere a Wok."
 
 #, python-format
 msgid ""
 "You have failed to login in too much attempts. Please, wait for %(seconds)s "
 "seconds to try again."
 msgstr ""
+"Accesso fallito in troppi tentativi. Attendi %(seconds)s secondi per "
+"riprovare."
 
 #, python-format
 msgid "Invalid LDAP configuration: %(item)s : %(value)s"
 msgstr ""
 
 msgid "Specify password to login into Wok."
-msgstr "Specificare %(item)s per accedere a Wok."
+msgstr "Specifica la password per accedere a Wok."
 
 msgid "You need to specify username and password to login into Wok."
 msgstr "Specificare %(item)s per accedere a Wok."
@@ -147,11 +152,11 @@ msgstr ""
 
 #, python-format
 msgid "User '%(username)s' login"
-msgstr ""
+msgstr "Login utente '%(username)s'"
 
 #, python-format
 msgid "User '%(username)s' logout"
-msgstr ""
+msgstr "Logout utente '%(username)s'"
 
 #, python-format
 msgid "Enable plug-in %(ident)s."
@@ -174,10 +179,10 @@ msgid "Go to Homepage"
 msgstr "Vai alla home page"
 
 msgid "Wok"
-msgstr ""
+msgstr "Wok"
 
 msgid "Settings"
-msgstr ""
+msgstr "Impostazioni"
 
 msgid "No such data available."
 msgstr "Dati indicati non disponibili."
@@ -197,13 +202,14 @@ msgid "Confirm"
 msgstr "Conferma"
 
 msgid "Action Confirmation"
-msgstr ""
+msgstr "Conferma Azione"
 
 msgid "Loading..."
 msgstr "Caricamento in corso..."
 
 msgid "An error occurred while retrieving system information."
 msgstr ""
+"Si è verificato un errore durante il recupero delle informazioni di sistema."
 
 msgid "Retry"
 msgstr "Riprova"
@@ -215,52 +221,52 @@ msgid "Max:"
 msgstr "Massimo:"
 
 msgid "Session timeout, please re-login."
-msgstr ""
+msgstr "Sessione scaduta, rientra."
 
 msgid "Server unreachable"
-msgstr ""
+msgstr "Server non raggiungibile"
 
 msgid "Application"
-msgstr ""
+msgstr "Applicazione"
 
 msgid "User"
-msgstr ""
+msgstr "Utente"
 
 msgid "Request"
-msgstr ""
+msgstr "Richiesta"
 
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 msgid "Time"
-msgstr ""
+msgstr "Orario"
 
 msgid "Message"
-msgstr ""
+msgstr "Messaggio"
 
 msgid "Please wait..."
-msgstr ""
+msgstr "Attendere..."
 
 msgid "Filter"
-msgstr ""
+msgstr "Filtro"
 
 msgid "Showing {{ctx.start}} to {{ctx.end}} of {{ctx.total}} entries"
-msgstr ""
+msgstr "Mostra da {{ctx.start}} a {{ctx.end}} di {{ctx.total}} voci"
 
 msgid "No results found!"
-msgstr ""
+msgstr "Nessun risultato trovato!"
 
 msgid "Actions"
-msgstr ""
+msgstr "Azioni"
 
 msgid "Zone"
 msgstr ""
 
 msgid "IP Address"
-msgstr ""
+msgstr "Indirizzo IP"
 
 msgid "Status"
-msgstr ""
+msgstr "Stato"
 
 msgid ""
 "Plugin %1 depends on %2 which will be automatically enabled on this "
@@ -273,7 +279,7 @@ msgid ""
 msgstr ""
 
 msgid "Your session will be expired on: %1 s. Do you want to renew it?"
-msgstr ""
+msgstr "La tua sessione scadrà tra: %1 s. La vuoi rinnovare?"
 
 msgid "Ki"
 msgstr ""
@@ -318,10 +324,10 @@ msgid "Toggle navigation"
 msgstr ""
 
 msgid "Your session will expire on: 30s. Do you want to renew it?"
-msgstr ""
+msgstr "La tua sessione scadrà tra: 30s. La vuoi rinnovare?"
 
 msgid "Renew"
-msgstr ""
+msgstr "Rinnova"
 
 msgid "Dismiss"
 msgstr ""
@@ -330,43 +336,43 @@ msgid "Powered by"
 msgstr ""
 
 msgid "Wok Version"
-msgstr ""
+msgstr "Versione Wok"
 
 msgid "Plugins Management"
-msgstr ""
+msgstr "Gestione Plugin"
 
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 msgid "No result found"
-msgstr ""
+msgstr "Nessuno risultato trovato"
 
 msgid "Peers"
 msgstr ""
 
 msgid "User Activity Log"
-msgstr ""
+msgstr "Log Attività Utente"
 
 msgid "Advanced Search"
-msgstr ""
+msgstr "Ricerca avanzata"
 
 msgid "Download"
-msgstr ""
+msgstr "Scarica"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Aggiorna"
 
 msgid "Search results by:"
-msgstr ""
+msgstr "Cerca risultati per:"
 
 msgid "Request Type"
-msgstr ""
+msgstr "Tipo Richiesta"
 
 msgid "All Requests"
-msgstr ""
+msgstr "Tutte le Richieste"
 
 msgid "POST"
 msgstr ""
@@ -381,7 +387,7 @@ msgid "DELETE"
 msgstr ""
 
 msgid "User IP Address"
-msgstr ""
+msgstr "Indirizzo IP Utente"
 
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
