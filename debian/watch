@@ -1,0 +1,4 @@
+version=3
+opts=filenamemangle=s/.*\/v([\d\.]+.*)$/wok-$1/ \
+https://github.com/kimchi-project/wok/releases \
+/kimchi-project/wok/archive/v([\d\.]+)\.tar\.gz

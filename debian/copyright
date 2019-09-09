@@ -1,0 +1,238 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: wok
+Upstream-Contact: Aline Manera <aline.manera@gmail.com>
+Source: https://github.com/kimchi-project/wok/
+
+Files: *
+Copyright: 2013-2017, IBM Corp
+           1995-2010, Ulrich Drepper <drepper@gnu.ai.mit.edu>
+           date (Aline Manera)
+           date on make check-local (Aline Manera)
+License: Apache-2 or LGPL-2.1+
+Comment: No explicit license found, using license(s) from:
+ COPYING.ASL2
+ COPYING.LGPL
+
+Files: COPYING.LGPL
+       Makefile.am
+       autogen.sh
+       build-all.sh
+       check_spec_errors.sh
+       check_ui_code_errors.sh
+       configure.ac
+       contrib/DEBIAN/Makefile.am
+       contrib/DEBIAN/postinst
+       contrib/DEBIAN/postrm
+       contrib/Makefile.am
+       contrib/check_i18n.py
+       contrib/make-deb.sh.in
+       contrib/wokd-upstart.conf.debian
+       contrib/wokd-upstart.conf.fedora
+       contrib/wokd.sysvinit
+       docs/API/Makefile.am
+       docs/Makefile.am
+       po/gen-pot.in
+       po/pt_BR.po
+       po/zh_CN.po
+       src/Makefile.am
+       src/nginx/Makefile.am
+       src/wok/Makefile.am
+       src/wok/__init__.py
+       src/wok/asynctask.py
+       src/wok/auth.py
+       src/wok/basemodel.py
+       src/wok/cachebust.py
+       src/wok/config.py.in
+       src/wok/control/*
+       src/wok/exception.py
+       src/wok/i18n.py
+       src/wok/message.py
+       src/wok/model/*
+       src/wok/objectstore.py
+       src/wok/plugins/Makefile.am
+       src/wok/plugins/__init__.py
+       src/wok/plugins/sample/__init__.py
+       src/wok/plugins/sample/i18n.py
+       src/wok/plugins/sample/model.py
+       src/wok/plugins/sample/po/update-po
+       src/wok/plugins/sample/root.py
+       src/wok/proxy.py
+       src/wok/pushserver.py
+       src/wok/reqlogger.py
+       src/wok/rollbackcontext.py
+       src/wok/root.py
+       src/wok/safewatchedfilehandler.py
+       src/wok/server.py
+       src/wok/sslcert.py
+       src/wok/stringutils.py
+       src/wok/template.py
+       src/wok/utils.py
+       src/wok/websocket.py
+       src/wok/xmlutils/*
+       src/wokd.in
+       tests/*
+       ui/js/*
+       ui/pages/*
+Copyright: 1991-1999, Free Software Foundation, Inc
+           2013-2017, IBM Corp
+           2004-2005, OSAF
+License: LGPL-2.1+
+
+Files: ui/css/*
+License: MIT/X11
+Comment: No explicit license found, using license(s) from:
+ ui/css/src/vendor/compass-mixins/LICENSE
+
+Files: COPYING.ASL2
+       src/wok/plugins/sample/ui/js/*
+       src/wok/plugins/sample/ui/pages/i18n.json.tmpl
+       src/wok/plugins/sample/ui/pages/tabs/*
+       ui/Makefile.am
+       ui/config/Makefile.am
+       ui/css/Makefile.am
+       ui/css/bootstrap-select.custom.css
+       ui/css/bootstrap.custom.css
+       ui/css/settings.css
+       ui/css/src/bootstrap-select.custom.scss
+       ui/css/src/bootstrap.custom.scss
+       ui/css/src/modules/*
+       ui/css/src/settings.scss
+       ui/css/src/user-log.scss
+       ui/css/src/wok.scss
+       ui/css/user-log.css
+       ui/css/wok.css
+       ui/images/Makefile.am
+       ui/images/theme-default/Makefile.am
+       ui/js/Makefile.am
+       ui/js/src/*
+       ui/js/wok.peers.js
+       ui/libs/*
+       ui/pages/Makefile.am
+       ui/pages/error.html.tmpl
+       ui/pages/help/wok.css
+       ui/pages/i18n.json.tmpl
+       ui/pages/login.html.tmpl
+       ui/pages/tabs/Makefile.am
+       ui/pages/wok-ui.html.tmpl
+Copyright: 2013-2017, IBM Corp
+           2011-2015, Twitter, Inc
+License: Apache-2
+
+Files: ui/css/src/vendor/bootstrap-sass/*
+Copyright: 2011-2015, Twitter, Inc
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ ui/css/src/vendor/bootstrap-sass/LICENSE
+
+Files: build-aux/config.rpath
+       config.rpath
+       m4/gettext.m4
+       m4/iconv.m4
+       m4/intlmacosx.m4
+       m4/lib-ld.m4
+       m4/lib-link.m4
+       m4/lib-prefix.m4
+       m4/nls.m4
+       m4/po.m4
+       m4/progtest.m4
+Copyright: 1995-2010, Free Software Foundation
+           1995-2010, Free Software Foundation, Inc
+License: FSFULLR
+
+Files: debian/*
+Copyright: 2019, Fabio Fantoni <fantonifabio@tiscali.it>
+License: GPL-2+
+
+Files: ui/css/src/modules/_compact.scss
+       ui/css/src/modules/_wok-variables.scss
+Copyright: 2015-2017, IBM Corp
+           2013-2015, bootstrap-select
+           2011, thoughtbot, inc
+License: Apache-2 or Expat
+
+Files: contrib/wok.spec.fedora.in
+       contrib/wok.spec.suse.in
+License: LGPL
+
+Files: ui/css/src/vendor/bootstrap-sass/LICENSE
+Copyright: 2013, Twitter, Inc
+License: Expat
+
+Files: ui/css/src/vendor/compass-mixins/LICENSE
+Copyright: 2009, Christopher M. Eppstein
+License: MIT/X11
+
+Files: ui/libs/jquery-containsNC/*
+Copyright: 2014, friedolinfoerder
+License: Expat
+
+Files: ui/libs/jquery-containsNC/Makefile.am
+Copyright: 2016, IBM Corp
+License: Apache-2
+
+Files: build-aux/pkg-version
+Copyright: 2008-2012, Red Hat, Inc
+License: GPL-2+
+
+Files: INSTALL
+Copyright: 1994-2011, Free Software Foundation
+License: FSFAP
+
+Files: ui/libs/jquery-containsNC/jquery.containsNC.js
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ ui/libs/jquery-containsNC/LICENSE
+
+License: Apache-2
+Comment: Add the corresponding license text here
+
+License: Expat
+Comment: Add the corresponding license text here
+
+License: FSFAP
+Comment: Add the corresponding license text here
+
+License: FSFULLR
+Comment: Add the corresponding license text here
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL
+Comment: Add the corresponding license text here
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: MIT/X11
+Comment: Add the corresponding license text here
